@@ -6,7 +6,7 @@ async function getAllSinhVienAsync() {
 getAllSinhVienAsync();
 
 
-async function insertSinhVienAsync(sinhVienOb) { //format sinh viên api
+async function insertSinhVienAsync(sinhVienOb) {
     const response = await fetch('https://svcy.myclass.vn/api/SinhVienApi/themSinhVien',{
         method:'POST',
         headers: {
